@@ -16,7 +16,7 @@ var infoSchema = new Schema({
     max: 5,
     required: true
   },
-  author: {
+  artist: {
     type: String,
     required: true
   },
@@ -24,7 +24,7 @@ var infoSchema = new Schema({
     type: String,
     required: true
   },
-  date released: {
+  datereleased: {
     type: Number,
     required: true
   }

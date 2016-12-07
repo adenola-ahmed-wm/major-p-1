@@ -1,0 +1,57 @@
+{
+  "data": {
+    "music": [
+      {
+        "createdAt": "2016-12-07T23:12:09.062Z",
+        "updatedAt": "2016-12-07T23:12:09.062Z",
+        "id": 1
+      },
+      {
+        "rating": "5",
+        "artist": "Chance The Rapper",
+        "name": "Coloring Book",
+        "datereleased": "5/12/16",
+        "createdAt": "2016-12-07T23:17:06.884Z",
+        "updatedAt": "2016-12-07T23:17:06.884Z",
+        "id": 2
+      }
+    ],
+    "user": []
+  },
+  "schema": {
+    "music": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "music": {
+      "id": 2
+    },
+    "user": {}
+  }
+}
